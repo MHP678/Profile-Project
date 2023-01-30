@@ -1,0 +1,62 @@
+@media screen and (max-width: 390px) {
+    body{
+        background-color:blanchedalmond;
+    }
+
+    main {
+        border-top: 2px solid;
+    }
+    
+
+    nav{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        font-family: Arial Black;
+        font-size: 80%;
+           
+        
+    }
+  
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+        
+    }
+    
+    nav li{
+        display: inline-block;
+        margin: 10px 5px 5px;        
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        padding-bottom: 10px;
+        
+        
+
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-family: Arial Black;
+      }
+
+    h1 {
+        display: block;
+        text-align: center;
+        padding: 50px;
+        font-size: 40px;
+        
+    
+    }
+    
+    }
+  
