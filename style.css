@@ -1,62 +1,115 @@
-@media screen and (max-width: 390px) {
-    body{
-        background-color:blanchedalmond;
-    }
+body {
+    background-color: rgb(250,224,185);
+    font-family: sans-serif;
+  }
+  
+  header {
+    border-bottom: 2px solid;
+  }
+  
+  nav {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 135%;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 10px 5px 5px;        
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top: 2px solid;
+  }
+  
+  
+  .firstheading {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid;
+    box-shadow: 5px 5px #7903039a;
+  }
+  
+  .football, .code, .Marvel, .gym img, .Aboutme img {
+    height: 120px;
+    width: 120px;
+    border-style: groove;
+    border-width: 20%;
+    border-color: rgb(10,9,10);
+    border-radius: 1.2em;
 
-    main {
-        border-top: 2px solid;
-    }
+  }
+  
+  .gym img {
+    width: 350px;
+    height: 190px;
     
+  }
+  
+  .Interests, .gym , .Aboutme{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 
-    nav{
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        font-family: Arial Black;
-        font-size: 80%;
-           
-        
+  }
+
+  .gym {
+    margin-top: 50px;
+  }
+  
+  .Aboutme {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .Aboutme img {
+    height: 250px ;
+    width: 300px;
+    border: none;
+  }
+
+  .secondpage {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid;
+    box-shadow: 5px 5px #7903039a;
+  }
+  
+  @media screen and (max-width: 390px) {
+    nav {
+      margin-top: 5px;
+      display: flex;
+      justify-content: space-evenly;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 135%;
     }
   
-    nav ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        
-        
+    .Marvel {
+      margin-top: 100px;
     }
-    
-    nav li{
-        display: inline-block;
-        margin: 10px 5px 5px;        
-    }
-
-    nav a {
-        color: black;
-        text-decoration: none;
-        padding-bottom: 10px;
-        
-        
-
-    }
-
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        font-family: Arial Black;
-      }
-
-    h1 {
-        display: block;
-        text-align: center;
-        padding: 50px;
-        font-size: 40px;
-        
-    
-    }
-    
-    }
+  }
   
