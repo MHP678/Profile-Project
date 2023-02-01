@@ -4,14 +4,20 @@ body {
   }
   
   header {
-    border-bottom: 2px solid;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(105, 20, 20);
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid;
   }
   
   nav {
-    margin-top: 5px;
     display: flex;
     justify-content: space-evenly;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact ,'Arial Narrow Bold', sans-serif;
     font-size: 135%;
   }
   
@@ -19,16 +25,19 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-top: 5px;
+    margin-bottom: 3px;
   }
   
   nav li {
-    display: inline-block;
-    margin: 10px 5px 5px;        
+    display: inline-block;     
   }
   
   nav a {
     color: black;
     text-decoration: none;
+    color: white;
+    padding: 7px;
   }
   
   footer {
@@ -37,14 +46,20 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-top: 2px solid;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border-top: 3px solid;
+    background-color: rgb(105, 20, 20);
+
+  }
+
+  footer p {
+    color:white
   }
   
   
   .firstheading {
     display: flex;
-    text-align: center;
+    justify-content: center;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 2px solid;
@@ -70,18 +85,19 @@ body {
   .Interests, .gym , .Aboutme{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 65px;
 
   }
 
   .gym {
-    margin-top: 50px;
+    margin-top: 40px;
   }
-  
+
+  /* image second page  */
   .Aboutme {
     flex-direction: row;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   .Aboutme img {
@@ -90,6 +106,7 @@ body {
     border: none;
   }
 
+  /* About me header */
   .secondpage {
     display: flex;
     justify-content: center;
@@ -97,8 +114,71 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 2px solid;
     box-shadow: 5px 5px #7903039a;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-  
+
+  .Textme{
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 120%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+  }
+
+  .Likey{
+    display: inline-block;
+    width: 450px;
+    justify-content: center;
+    border: 2px solid;
+    box-shadow: 5px 5px #7903039a;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+  }
+
+  .Likey p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+        border-bottom: 2px solid;
+    border-top: 2px solid;
+  }
+
+
+  .Likey li {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  }
+
+  .Hatey{
+    display: inline-block;
+    width: 450px;
+    display: inline-block;
+    border: 2px solid;
+    box-shadow: 5px 5px #7903039a;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .Hatey p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+  }
+
+  .Hatey li {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  }
+
+
+  .space{
+    height: 200px;
+    width: 50px
+  }
   @media screen and (max-width: 390px) {
     nav {
       margin-top: 5px;
@@ -111,5 +191,22 @@ body {
     .Marvel {
       margin-top: 100px;
     }
+    .firstheading{
+        text-align: center;
+    }
+
+    .Hatey{
+        display: block;
+        width: 350px;
+
+    }
+
+    .Likey{
+        display: block;
+        width: 350px;
+    }
+
+
+
   }
   
