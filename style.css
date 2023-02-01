@@ -1,6 +1,10 @@
 body {
     background-color: rgb(250,224,185);
     font-family: sans-serif;
+
+  }
+  main{
+    padding-top: 50px;
   }
   
   header {
@@ -85,7 +89,7 @@ body {
   .Interests, .gym , .Aboutme{
     display: flex;
     justify-content: center;
-    margin-top: 65px;
+
 
   }
 
@@ -93,17 +97,22 @@ body {
     margin-top: 40px;
   }
 
+
+
   /* image second page  */
   .Aboutme {
     flex-direction: row;
     align-items: center;
-    margin-top: 60px;
+
   }
 
   .Aboutme img {
     height: 250px ;
     width: 300px;
     border: none;
+    border-style: groove;
+    border-width: 20%;
+    border-color: rgb(10,9,10);
   }
 
   /* About me header */
@@ -153,7 +162,6 @@ body {
   }
 
   .Hatey{
-    display: inline-block;
     width: 450px;
     display: inline-block;
     border: 2px solid;
@@ -176,9 +184,62 @@ body {
 
 
   .space{
-    height: 200px;
-    width: 50px
+    height: 70px;
+    width: 50px;
   }
+
+
+  .socials img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+    }
+
+    .socials{
+    display: flex;
+    width: 450px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px solid;
+    box-shadow: 5px 5px #7903039a;
+    }
+
+    .socials1{
+    display: flex;
+    width: 450px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 2px solid;
+    box-shadow: 5px 5px #7903039a;
+    }
+
+    .socials1 img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+    }
+
+
+    .quote{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    }
+
+    .quote img{
+        border-radius: 2em;
+        border-style: groove;
+        border-width: 20%;
+        border-color: rgb(10,9,10);
+    }
+
+
+
+
   @media screen and (max-width: 390px) {
     nav {
       margin-top: 5px;
@@ -206,7 +267,22 @@ body {
         width: 350px;
     }
 
+    .socials{
+        width: 350px;
+    } 
+    .socials1{
+        width: 350px;
+    } 
 
+    .quote img{
+        width: 300px;
+
+    }
+
+    .RUN img{
+        width: 400px;
+        margin-left: 0;
+    }
 
   }
   
