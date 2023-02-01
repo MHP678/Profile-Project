@@ -109,7 +109,6 @@ body {
   .Aboutme img {
     height: 250px ;
     width: 300px;
-    border: none;
     border-style: groove;
     border-width: 20%;
     border-color: rgb(10,9,10);
@@ -237,6 +236,38 @@ body {
         border-color: rgb(10,9,10);
     }
 
+    .RMail , .Course , .barclays {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 2px solid;
+        box-shadow: 5px 5px #7903039a;
+    }
+
+    .RM , .CA , .B{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .RM img , .CA img , .B img{
+        width: 40%;
+        margin-right: 20px;
+        border-style: groove;
+        border-width: 20%;
+        border-color: rgb(10,9,10);
+        border-radius: 1.2em;
+
+      }
+
+      .RM p , .CA p , .B p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    }
+      
+
+
+
 
 
 
@@ -283,6 +314,7 @@ body {
         width: 400px;
         margin-left: 0;
     }
+
 
   }
   
