@@ -3,46 +3,58 @@ body {
     font-family: sans-serif;
 
   }
-  main{
+
+  
+  main {
     padding-top: 50px;
   }
-  
+
+
   header {
     position: fixed;
-    top: 0;
-    right: 0;
     left: 0;
-    background-color: rgb(105, 20, 20);
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     border-bottom: 3px solid;
-  }
-  
-  nav {
+    background-color: rgb(105, 20, 20);
+    }
+
+
+
+  header nav {
     display: flex;
     justify-content: space-evenly;
     font-family: Impact ,'Arial Narrow Bold', sans-serif;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin-top: 5px;
-    margin-bottom: 3px;
     
   }
   
-  nav li {
-    display: inline-block;     
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
   }
   
-  nav a {
-    color: black;
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav a {
+    color: #FFF;
     text-decoration: none;
-    color: white;
-    padding: 7px;
-
+    font-size: 160%;
+    margin: 10px;
   }
   
+  header nav a:hover {
+    color: rgb(231, 174, 17);
+  }
+
+
   footer {
     position: fixed;
     left: 0;
@@ -54,6 +66,7 @@ body {
     background-color: rgb(105, 20, 20);
 
   }
+
 
   footer p {
     color:white
@@ -271,14 +284,30 @@ body {
 
 
   @media screen and (max-width: 390px) {
-    nav {
-      margin-top: 5px;
-      display: flex;
-      justify-content: space-evenly;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-size: 135%;
+
+    .Homepage{
+        display: none;
     }
-  
+
+    header nav ul {
+        list-style: none;
+        margin: 0 ;
+        padding: 0;
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+    header nav a{
+        font-size: 115%;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-evenly;
+        font-family: Impact ,'Arial Narrow Bold', sans-serif;
+      }
+
     .Marvel {
       margin-top: 100px;
     }
